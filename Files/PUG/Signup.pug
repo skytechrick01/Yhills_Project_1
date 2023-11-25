@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup | SKY TECH - RICK | Yhills</title>
+    <link rel="stylesheet" href="/files/css/Signup.css">
+    <link rel="shortcut icon"href="/files/img/GSB_logo.png" type="image/x-icon">
+
+</head>
+<body>
+
+    <div id="KL">#{VIS}</div>
+    <header>
+        <h1><a href="/">SKY TECH - RICK</a></h1>
+        <p id="Header_P">Online shopping site for India only. <br>Welcome to "SKY TECH - RICK" online platform</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="Nav"><a class="NavA" href="/">Home</a></li>
+            <li class="Nav"><a class="NavA" href="/service">Service</a></li>
+            <li class="Nav"><a class="NavA" href="/contact">Contact</a></li>
+            <li class="Nav"><a class="NavA" href="/help">Help</a></li>
+            <li class="Nav"><a id="Nav_Signup" class="NavA" href="/signup">Signup</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <form action="/signup" method="post">
+            <h3>Signup</h3>
+            <p>Welcome to "SKY TECH - RICK"</p>
+            <p>Create your user account for shopping.</p>
+            <div id="Input_Details">
+                <div class="IN_Box">
+                    <input type="text" name="Name" id="Name" placeholder="Full name" spellcheck="false" autocomplete="off" autofocus>
+                    <div id="Name_Div">Enter your name<span style="color: red;">*</span></div>
+                </div>
+
+                <div class="IN_Box">
+                    <input maxlength="10" type="text" name="Mobile" id="Mobile" placeholder="Mobile number" spellcheck="false" autocomplete="off" >
+                    <div id="Mobile_Number_Div">Enter your mobile number<span style="color: red;">*</span></div>
+                </div>
+
+                <div class="IN_Box">
+                    <input type="text" name="Email" id="Email" placeholder="Email" spellcheck="false" autocomplete="off">
+                    <div id="Email_Div">Email address (example@gmail.com)<span style="color: red;">*</span></div>
+                </div>
+                
+                <div class="IN_Box">
+                    <input type="password" name="Create_Password" id="Create_Password" placeholder="Create password" spellcheck="false" autocomplete="off">
+                    <div id="Create_Div">Create password<span style="color: red;">*</span></div>
+                </div>
+
+                <div id="Confirm_DIV_DIV" class="IN_Box">
+                    <input type="password" name="Confirm_Password" id="Confirm_Password" placeholder="Create password" spellcheck="false" autocomplete="off">
+                    <div id="Confirm_Div">Re-enter your password<span style="color: red;">*</span></div>
+                </div>
+
+                <div id="Show">
+                    <input type="checkbox" id="Show_Password">
+                    <span id="Show_Span"> <label for="Show_Password">Show password</label></span>
+                </div>
+                <div id="Button_Div">
+                    <button id="Submit_Submit" type="button" onclick="Submit_CLICKED();">Submit</button>
+                </div>
+            </div>
+            <div id="OR">or</div>
+
+            <a id="CA" href="/login"><div id="AA">Already have a account?</div></a>
+        </form>
+    </section>
+
+    
+
+
+    <div id="BG_Show">
+
+        <div id="bgg"></div>
+        
+        <div id="background"> 
+            <div id="ba">
+                <div id="Ba1">
+                    <div>Account <br>Created <br> Successfully</div>
+                    <hr>
+                    <a href="/login">OK</a>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <footer>Copyright &copy; All rights reserved</footer>
+    <script src="/files/js/Signup.js"></script>
+</body>
+</html>

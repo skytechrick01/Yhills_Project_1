@@ -1,0 +1,318 @@
+body {
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #aaa;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+h1 {
+    display: block;
+    margin: 0px;
+    margin-top: 12px;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+h1 a {
+    color: #ff00a3;
+    text-decoration: none;
+}
+
+#Header_P {
+    margin: 0px;
+    display: block;
+    text-align: center;
+}
+
+nav ul {
+    width: 500px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    flex-direction: row;
+    list-style: none;
+}
+section {
+    margin-top: 50px;
+    height: 70%;
+}
+
+nav {
+    border-bottom: 1px solid #aaa;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+.Nav {
+    padding: 5px;
+}
+
+.Nav a {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#Nav_Signup {
+    color: #ff00a3;
+    border-bottom: 1px solid black;
+}
+
+.Nav a:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+form {
+    
+    background-color: white;
+    width: 400px;
+    margin: 10px auto;
+    height: 600px;
+    border-bottom: 2px solid #aaa;
+    box-shadow: 0px 0px 4px #aaa;
+    position: relative;
+    top: 0px;
+}
+
+h3 {
+    /* position: relative; */
+    /* border-bottom: 1px solid #aaa; */
+    width: 70px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-size: 22px;
+
+}
+
+form p {
+    /* border-bottom: 1px solid #aaa; */
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+input {
+    outline: none;
+    border: 1px solid #ff00a3;
+    width: 282px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#Input_Details {
+    /* border: 1px solid red; */
+    width: 300px;
+    margin: auto;
+    height: 355px;
+    margin-top: 10px;
+}
+
+#Name_Div,
+#Mobile_Number_Div,
+#Email_Div,
+#Create_Div,
+#Confirm_Div {
+    padding-bottom: 12px;
+    font-size: 13px;
+}
+
+#Create_Div,
+#Confirm_Div {
+    padding: 3px 3px 12px 0px;
+    
+}
+
+#Show {
+    display: block;
+    width: 300px;
+    /* border: 1px solid red; */
+}
+
+#Show_Password {
+    /* border: 1px solid red; */
+    width: 15px;
+    display: inline-block;
+    margin: 0px;
+    cursor: pointer;
+}
+
+#Show_Span {
+    cursor: pointer;
+    font-size: 13px;
+}
+
+button {
+    border: 1px solid rgb(255, 0, 162);
+    background-color: rgb(225, 0, 255);
+    color: white;
+    cursor: pointer;
+    width: 300px;
+    padding: 9px;
+}
+#AA {
+    border: 1px solid rgb(255, 0, 162);
+    background-color: rgb(225, 0, 255);
+    color: white;
+    cursor: pointer;
+    width: 280px;
+    padding: 9px 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#CA {
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}
+
+#AA:hover {
+    background-color: rgb(235, 80, 255);
+}
+
+#AA:active {
+    background-color: rgb(185, 0, 209);
+}
+button:hover {
+    background-color: rgb(235, 80, 255);
+}
+
+button:active {
+    background-color: rgb(185, 0, 209);
+}
+
+#Forgot {
+    position: relative;
+    top: -17px;
+    display: block;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+#Confirm_Div {
+    padding-bottom: 0px;
+}
+
+#Forgot a{
+    font-size: 13px;
+    color: blue;
+}
+
+#Confirm_DIV_DIV {
+    height: 55px;
+}
+
+#OR {
+    width: 22px;
+    height: 22px;
+    padding: 6px;
+    font-size: 17px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    border: 1px solid #ff00a3;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#Have_Acc {
+    display: block;
+    margin: 10px auto;
+}
+
+#background {
+
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: transparent;
+    /* opacity: 0.5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+
+#ba {
+    width: 350px;
+    height:     350px;
+    border: 1px solid #ff00a3;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px #ff00a3;
+    
+
+}
+
+#Ba1 {
+    text-align: center;
+    
+}
+
+
+#Ba1 a{
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+    background-color: #ff00a3;
+    border-radius: 5px;
+    
+}
+
+#Ba1 div {
+    text-align: center;
+}
+
+#bgg {
+    
+    background-color: white;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#BG_Show {
+    display: none;
+}
+
+#KL
+{
+    display: none;
+}
